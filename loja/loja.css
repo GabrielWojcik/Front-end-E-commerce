@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{height: 100%;}
+
+.sidebar{
+    float: left;
+    width: 250px;
+    padding: 10px 10px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(94, 255, 148, 0.83);
+    overflow-x: hidden;
+}
+/*
+.sidebar-wraper{
+    padding-bottom: 200px;
+}
+*/
+
+.sidebar__menu{
+    margin: 20px 0;
+    color: rgb(190,190,190);
+}
+.sidebar__logo img{
+    margin: 150px 0;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 50px;
+
+
+}
+.sidebar__menu a{
+    color:black; /* muda a cor do icone de cadastro*/
+    text-decoration: none;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px 0;
+    margin-left: 75px;
+}
+
+.sidebar__menu svg{
+     margin: 0 20px;
+}
+.cadastro{
+    
+    margin-top: 0px;
+    vertical-align: middle;
+}
+.secao h1{
+    margin-top: -140px;
+    margin-left: 75px;
+    color: white;
+   
+}
+.divisao p{
+    margin-top: -70px;
+    color: white;
+    font-size: 30px;
+}
+.divisao1 p{
+    color:  white;
+    margin-top:50px;
+    margin-left: 75px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.divisao2 p{
+    color:  white;
+    margin-top:45px;
+    margin-left: 75px;
+    font-size: 30px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+.divisao3 p{
+    color:  white;
+    margin-top:40px;
+    margin-left: 75px;
+    font-size: 30px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+.main{
+    width: calc(100% - 250px);
+    background-color:white;
+    height: 100%;
+
+    float: left;
+    padding: 15px 50px;
+    overflow-y:auto ;
+}
+
+.main__row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+/*
+.main-wraper{ /*AAAAAAAAAAAAAAAAAAAAAA*/
+ /*   padding-top: 50px;
+}*/
+
+
+.main__row__title{
+    width: 100%;
+}
+.main__row__title h2{
+    color: black; /*Cor titulo LOJA*/
+    margin-left: 500px;
+}
+
+.main__col{
+    
+    width: 20%;
+    margin-right: 1%;
+    margin-top: 20px;
+    
+    background-color: white; /*cor MOLDURA FOTO*/
+    border-radius:8px;
+    padding: 10px;
+    text-align: center;
+}
+.main__col h1{
+    margin-top: -600;
+    margin-left: 380px;
+    font-size:30px;
+}
+.main__col h2{
+    margin-left: 100px;
+}
+.main__col h3{
+    color: white;
+    margin:  10px 0;
+    margin-left: 15px;
+}
+
+.main__col p{
+    color: black; /*COR DA FONTE SITE */
+    margin:  8px 0;
+    font-size: 13px;
+    text-align: left;
+    width: 20%;
+    height: 20%;
+}
+.main__descricao p{
+ margin-top: -300px;
+ margin-left: 380px;
+}
+.main__descricao h1{
+    margin-top: -500px;
+    margin-left: 380px;
+}
+.comprar h1 {
+    margin-left: 380px;
+    margin-top: -150px;
+}
+.comprar h2{
+    margin-left:380px ;
+}
+.main__comprar{
+    margin-left: 380px;
+    margin-top: -25px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.main__rastreio{
+    color: black;
+    margin-top: -40px;
+    margin-left:-25px ;
+    
+    size: 7px;
+
+}
+.main__rastreio p{
+    margin-top: -20px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.slider{
+    display: block;
+    height:293px ;
+    width: 400px;
+    margin: auto;
+    margin-top: -20px;
+    position: relative;
+}
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input{
+    display: none;
+}
+
+.slider label{
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    display: block;
+    height: 10px;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label{
+    left: 10px;
+}
+
+.slider li:nth-child(2) label{
+    left: 40px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+#div1{
+    margin-left: 5px;
+    margin-top: -70px;
+}
+#div2{
+    margin-left: 5px;
+    margin-top: -70px;
+}
+#div3{
+    margin-top: -70px;
+    margin-left: 5px;
+}
+.box{
+    margin-left: 500px;
+    margin-top:-58px;
+}
